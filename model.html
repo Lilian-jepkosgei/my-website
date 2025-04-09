@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FrontendPro Sandbox</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="model.css" />
+  </head>
+  <body>
+    <h1 id="app">Feedback Modal</h1>
+
+    <button id="openModal">Give Feedback</button>
+
+    <div id="feedbackModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>How will you recommend our service?</h2>
+
+        <div class="rating">
+          <div class="rating-numbers">
+            <span data-rating="1">1</span>
+            <span data-rating="2">2</span>
+            <span data-rating="3">3</span>
+            <span data-rating="4">4</span>
+            <span data-rating="5">5</span>
+            <span data-rating="6">6</span>
+            <span data-rating="7">7</span>
+            <span data-rating="8">8</span>
+            <span data-rating="9">9</span>
+            <span data-rating="10">10</span>
+          </div>
+          <div class="rating-labels">
+            <span class="label-left">Very poor</span>
+            <span class="center">Average</span>
+            <span class="label-right">Very good</span>
+          </div>
+        </div>
+
+        <div class="button-group">
+          <button id="cancelBtn">Cancel</button>
+          <button id="submitBtn">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="model.js"></script>
+  </body>
+</html>0
